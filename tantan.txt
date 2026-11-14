@@ -1,0 +1,766 @@
+
+while True:
+
+    print("\n======================================")
+    print("       PYTHON TUTORIAL SYSTEM")
+    print("======================================")
+    print("[1] Fundamentals of Programming")
+    print("[2] Introduction to Programming")
+    print("[3] What is a Programming Language?")
+    print("[4] Who Built Python?")
+    print("[5] What is Python Programming?")
+    print("[6] Why Learn Python?")
+    print("[7] What Do You Need to Start Python?")
+    print("[8] Python Basic Syntax")
+    print("[9] What is Python Syntax?")
+    print("[10] Python Case-Sensitive")
+    print("[11] Python Indentation")
+    print("[12] Printing Output")
+    print("[13] Python Comments")
+    print("[14] Variables, Constants and Data Types")
+    print("[15] What are Variables?")
+    print("[16] Data Types")
+    print("[17] Variable Declaration")
+    print("[18] Arithmetic Operators")
+    print("[19] Expression in Python")
+    print("[20] Basic Input and Output")
+    print("[21] Accepting User Input")
+    print("[22] Converting Input to Data Types")
+    print("[23] Conditional Statements")
+    print("[24] Introduction to Conditional Statements")
+    print("[25] Relational Operators")
+    print("[26] Operator Practice")
+    print("[27] The If Statement")
+    print("[28] The If Else Statement")
+    print("[29] The If Elif Else Statement")
+    print("[30] Nested Condition")
+    print("[31] Logical Operators")
+    print("[32] AND Operator")
+    print("[33] OR Operator")
+    print("[34] NOT Operator")
+    print("[35] Introduction to Iteration and Loops")
+    print("[36] Introduction to Iteration")
+    print("[37] Types of Loops")
+    print("[38] Python For Loop")
+    print("[39] For Loop Example")
+    print("[40] Python While Loop")
+    print("[41] 20 Question Quiz")
+    print("[42] Exit")
+    print("======================================")
+
+    choice = input("Enter your choice: ")
+
+    if choice == "1":
+        print("\nFUNDAMENTALS OF PROGRAMMING")
+        print("Programming is the process of creating instructions")
+        print("that tell a computer what to do.")
+        print("\nSteps in Programming:")
+        print("1. Identify the problem")
+        print("2. Plan the solution")
+        print("3. Write the code")
+        print("4. Test the program")
+        print("5. Fix errors")
+        print("\nExample:")
+        print('print("Hello World")')
+        print("Explanation: The print() function displays output.")
+
+    elif choice == "2":
+        print("\nINTRODUCTION TO PROGRAMMING")
+        print("Programming allows people to communicate with computers.")
+        print("It is used to create software and applications.")
+        print("\nExamples:")
+        print("- Websites")
+        print("- Mobile Applications")
+        print("- Computer Games")
+        print("- Business Systems")
+        print("- Artificial Intelligence")
+
+    elif choice == "3":
+        print("\nWHAT IS A PROGRAMMING LANGUAGE?")
+        print("A programming language is used to write instructions")
+        print("that computers can understand and process.")
+        print("\nExamples:")
+        print("Python, Java, C++, JavaScript and PHP")
+
+    elif choice == "4":
+        print("\nWHO BUILT PYTHON?")
+        print("Python was created by Guido van Rossum.")
+        print("Development started in the late 1980s.")
+        print("Python was first released in 1991.")
+
+    elif choice == "5":
+        print("\nWHAT IS PYTHON PROGRAMMING?")
+        print("Python is a high-level, general-purpose programming language.")
+        print("It is known for its simple and readable syntax.")
+        print("\nExample:")
+        print('name = "Tristan"')
+        print('print("Hello", name)')
+        print("\nOutput: Hello Tristan")
+
+    elif choice == "6":
+        print("\nWHY LEARN PYTHON?")
+        print("1. Easy to understand")
+        print("2. Beginner-friendly")
+        print("3. Useful in different industries")
+        print("4. Has many libraries")
+        print("5. Can create different applications")
+        print("6. Useful for automation and AI")
+
+    elif choice == "7":
+        print("\nWHAT DO YOU NEED TO START PYTHON?")
+        print("1. Computer or laptop")
+        print("2. Python interpreter")
+        print("3. Code editor")
+        print("4. Basic computer knowledge")
+        print("5. Practice and patience")
+        print("\nExamples of editors:")
+        print("IDLE, VS Code, PyCharm and Thonny")
+
+    elif choice == "8":
+        print("\nPYTHON BASIC SYNTAX")
+        print("Syntax refers to the rules of writing Python code.")
+        print("\nExample:")
+        print('print("Welcome to Python!")')
+        print("\nExplanation:")
+        print("print is a built-in function.")
+        print("Parentheses contain the information.")
+        print("Quotation marks contain text.")
+
+    elif choice == "9":
+        print("\nWHAT IS PYTHON SYNTAX?")
+        print("Python syntax is the set of rules used when writing code.")
+        print("\nCorrect:")
+        print('print("Hello")')
+        print("\nIncorrect:")
+        print('print("Hello"')
+        print("\nExplanation: The incorrect code is missing a closing parenthesis.")
+
+    elif choice == "10":
+        print("\nPYTHON IS CASE-SENSITIVE")
+        print("Python treats uppercase and lowercase letters differently.")
+        print("\nCORRECT CODE:")
+        print('name = "Tristan"')
+        print("print(name)")
+        print("\nWRONG CODE:")
+        print('name = "Tristan"')
+        print("Print(name)")
+        print("\nExplanation:")
+        print("Python recognizes print() with a lowercase p.")
+        print("Print() is not the same function.")
+
+    elif choice == "11":
+        print("\nPYTHON INDENTATION")
+        print("Indentation means adding spaces at the beginning of a line.")
+        print("\nCORRECT CODE:")
+        print("age = 18")
+        print("if age >= 18:")
+        print('    print("Adult")')
+        print("\nWRONG CODE:")
+        print("age = 18")
+        print("if age >= 18:")
+        print('print("Adult")')
+        print("\nExplanation:")
+        print("The print statement must be indented inside the if block.")
+        print("Python commonly uses four spaces.")
+
+    elif choice == "12":
+        print("\nPRINTING OUTPUT")
+        print("The print() function displays information on the screen.")
+        print("\nExample:")
+        print('print("Hello World")')
+        print("print(100)")
+        print("print(10 + 5)")
+        print("\nOutput:")
+        print("Hello World")
+        print("100")
+        print("15")
+        print("\nExplanation:")
+        print("print() displays text, numbers and calculations.")
+
+    elif choice == "13":
+        print("\nPYTHON COMMENTS")
+        print("Comments are notes written inside a program.")
+        print("Python ignores comments during execution.")
+        print("\nExample:")
+        print("# This is a comment")
+        print('print("Hello")')
+        print("\nExplanation:")
+        print("The # symbol creates a single-line comment.")
+        print("\nMultiline documentation example:")
+        print("'''")
+        print("This is a longer program description.")
+        print("'''")
+
+    elif choice == "14":
+        print("\nVARIABLES, CONSTANTS AND DATA TYPES")
+        print("Variables store information that can change.")
+        print("Constants represent values that should not change")
+        print("by programming convention.")
+        print("\nExample:")
+        print('name = "Alex"')
+        print("age = 18")
+        print("grade = 95.5")
+        print("is_student = True")
+        print("PI = 3.14159")
+
+    elif choice == "15":
+        print("\nWHAT ARE VARIABLES?")
+        print("Variables are named storage locations for data.")
+        print("\nExample:")
+        print('student = "Tristan"')
+        print("age = 18")
+        print("print(student)")
+        print("print(age)")
+        print("\nOutput:")
+        print("Tristan")
+        print("18")
+        print("\nA variable's value can be changed.")
+        print("Example: age = 19")
+
+    elif choice == "16":
+        print("\nDATA TYPES IN PYTHON")
+        print("1. STRING (str) - Text")
+        print('   name = "Alex"')
+        print("\n2. INTEGER (int) - Whole numbers")
+        print("   age = 18")
+        print("\n3. FLOAT (float) - Decimal numbers")
+        print("   grade = 95.5")
+        print("\n4. BOOLEAN (bool) - True or False")
+        print("   is_student = True")
+        print("\n5. LIST - Collection of items")
+        print('   fruits = ["Apple", "Mango"]')
+        print("\n6. TUPLE - Ordered collection")
+        print('   colors = ("Red", "Blue")')
+        print("\n7. DICTIONARY - Key-value pairs")
+        print('   student = {"name": "Alex", "age": 18}')
+        print("\n8. SET - Unique items")
+        print("   numbers = {1, 2, 3}")
+        print("\nUse type() to check a data type.")
+
+    elif choice == "17":
+        print("\nVARIABLE DECLARATION")
+        print("Python creates variables using the = operator.")
+        print("\nExample:")
+        print('name = "Tristan"')
+        print("age = 18")
+        print("grade = 95.5")
+        print("\nExplanation:")
+        print("Python automatically determines the data type.")
+        print("You do not need to declare the type first.")
+
+    elif choice == "18":
+        print("\nARITHMETIC OPERATORS")
+        print("Arithmetic operators perform mathematical calculations.")
+        print("\nOPERATOR | MEANING | EXAMPLE | RESULT")
+        print("+        | Addition | 10 + 5 | 15")
+        print("-        | Subtraction | 10 - 5 | 5")
+        print("*        | Multiplication | 10 * 5 | 50")
+        print("/        | Division | 10 / 5 | 2.0")
+        print("//       | Floor Division | 10 // 3 | 3")
+        print("%        | Modulus | 10 % 3 | 1")
+        print("**       | Exponentiation | 2 ** 3 | 8")
+        print("\nExample:")
+        print("a = 10")
+        print("b = 5")
+        print("print(a + b)")
+
+    elif choice == "19":
+        print("\nEXPRESSION IN PYTHON")
+        print("An expression combines values, variables and operators.")
+        print("\nExample:")
+        print("x = 10")
+        print("y = 5")
+        print("result = x + y * 2")
+        print("print(result)")
+        print("\nOutput: 20")
+        print("\nExplanation:")
+        print("Multiplication is performed before addition.")
+        print("5 * 2 = 10")
+        print("10 + 10 = 20")
+
+    elif choice == "20":
+        print("\nBASIC INPUT AND OUTPUT")
+        print("Input accepts information from the user.")
+        print("Output displays information.")
+        print("\nExample:")
+        print('name = input("Enter your name: ")')
+        print('print("Welcome", name)')
+        print("\nExplanation:")
+        print("input() receives information.")
+        print("print() displays information.")
+
+    elif choice == "21":
+        print("\nACCEPTING USER INPUT")
+        print("The input() function accepts information from users.")
+        print("\nExample:")
+        print('name = input("Enter your name: ")')
+        print('print("Your name is", name)')
+        print("\nSample Output:")
+        print("Enter your name: Alex")
+        print("Your name is Alex")
+        print("\nImportant: input() returns a string by default.")
+
+    elif choice == "22":
+        print("\nCONVERTING INPUT TO DATA TYPES")
+        print("Input can be converted into different data types.")
+        print("\nINTEGER:")
+        print('age = int(input("Enter age: "))')
+        print("\nFLOAT:")
+        print('grade = float(input("Enter grade: "))')
+        print("\nSTRING:")
+        print("number = 100")
+        print("text = str(number)")
+        print("\nExplanation:")
+        print("int() converts to an integer.")
+        print("float() converts to a decimal.")
+        print("str() converts to text.")
+
+    elif choice == "23":
+        print("\nCONDITIONAL STATEMENTS")
+        print("Conditional statements allow programs to make decisions.")
+        print("\nTypes:")
+        print("- if")
+        print("- if else")
+        print("- if elif else")
+        print("- Nested if")
+        print("\nExample:")
+        print("age = 18")
+        print("if age >= 18:")
+        print('    print("Adult")')
+
+    elif choice == "24":
+        print("\nINTRODUCTION TO CONDITIONAL STATEMENTS")
+        print("Conditional statements execute code depending on")
+        print("whether a condition is True or False.")
+        print("\nExample:")
+        print("grade = 90")
+        print("if grade >= 75:")
+        print('    print("Passed")')
+        print("else:")
+        print('    print("Failed")')
+        print("\nOutput: Passed")
+
+    elif choice == "25":
+        print("\nRELATIONAL OPERATORS")
+        print("Relational operators compare two values.")
+        print("\n== Equal to")
+        print("!= Not equal to")
+        print(">  Greater than")
+        print("<  Less than")
+        print(">= Greater than or equal to")
+        print("<= Less than or equal to")
+        print("\nExample:")
+        print("a = 10")
+        print("b = 5")
+        print("print(a > b)")
+        print("\nOutput: True")
+
+    elif choice == "26":
+        print("\nOPERATOR PRACTICE")
+        print("\nExample 1:")
+        print("10 < 20")
+        print("Answer: True")
+        print("\nExample 2:")
+        print("15 == 15")
+        print("Answer: True")
+        print("\nExample 3:")
+        print("8 != 8")
+        print("Answer: False")
+        print("\nRelational operators return True or False.")
+
+    elif choice == "27":
+        print("\nTHE IF STATEMENT")
+        print("The if statement executes code when a condition is True.")
+        print("\nExample:")
+        print("age = 18")
+        print("if age >= 18:")
+        print('    print("You can vote")')
+        print("\nExplanation:")
+        print("The condition is True, so the print statement executes.")
+
+    elif choice == "28":
+        print("\nTHE IF ELSE STATEMENT")
+        print("The if else statement provides two possible paths.")
+        print("\nExample:")
+        print("number = 7")
+        print("if number % 2 == 0:")
+        print('    print("Even number")')
+        print("else:")
+        print('    print("Odd number")')
+        print("\nOutput: Odd number")
+        print("\nExplanation:")
+        print("If the remainder is zero, it is even.")
+        print("Otherwise, it is odd.")
+
+    elif choice == "29":
+        print("\nTHE IF ELIF ELSE STATEMENT")
+        print("The elif keyword checks additional conditions.")
+        print("\nExample:")
+        print("grade = 90")
+        print("if grade >= 90:")
+        print('    print("Excellent")')
+        print("elif grade >= 80:")
+        print('    print("Very Good")')
+        print("elif grade >= 75:")
+        print('    print("Passed")')
+        print("else:")
+        print('    print("Failed")')
+        print("\nExplanation:")
+        print("Python executes the first condition that is True.")
+
+    elif choice == "30":
+        print("\nNESTED CONDITION")
+        print("A nested condition is an if statement inside another if.")
+        print("\nExample:")
+        print("age = 20")
+        print("has_id = True")
+        print("if age >= 18:")
+        print("    if has_id:")
+        print('        print("Access granted")')
+        print("    else:")
+        print('        print("ID required")')
+        print("else:")
+        print('    print("Access denied")')
+        print("\nExplanation:")
+        print("The first condition checks age.")
+        print("The second condition checks the ID.")
+
+    elif choice == "31":
+        print("\nLOGICAL OPERATORS")
+        print("Logical operators combine or modify conditions.")
+        print("\nThree logical operators:")
+        print("1. AND")
+        print("2. OR")
+        print("3. NOT")
+        print("\nThey are useful for checking multiple conditions.")
+
+    elif choice == "32":
+        print("\nAND OPERATOR")
+        print("AND returns True only when BOTH conditions are True.")
+        print("\nExample:")
+        print("age = 20")
+        print("has_id = True")
+        print("if age >= 18 and has_id:")
+        print('    print("Access granted")')
+        print("\nAND TRUTH TABLE")
+        print("True  AND True  = True")
+        print("True  AND False = False")
+        print("False AND True  = False")
+        print("False AND False = False")
+
+    elif choice == "33":
+        print("\nOR OPERATOR")
+        print("OR returns True when AT LEAST ONE condition is True.")
+        print("\nExample:")
+        print("has_ticket = True")
+        print("is_guest = False")
+        print("if has_ticket or is_guest:")
+        print('    print("Entry allowed")')
+        print("\nOR TRUTH TABLE")
+        print("True  OR True  = True")
+        print("True  OR False = True")
+        print("False OR True  = True")
+        print("False OR False = False")
+
+    elif choice == "34":
+        print("\nNOT OPERATOR")
+        print("NOT reverses a Boolean value.")
+        print("\nExample:")
+        print("is_raining = False")
+        print("if not is_raining:")
+        print('    print("You can go outside")')
+        print("\nNOT TRUTH TABLE")
+        print("NOT True  = False")
+        print("NOT False = True")
+
+    elif choice == "35":
+        print("\nINTRODUCTION TO ITERATION AND LOOPS")
+        print("Iteration means repeating a set of instructions.")
+        print("\nBenefits:")
+        print("1. Reduces repeated code.")
+        print("2. Makes programs shorter.")
+        print("3. Automates repetitive tasks.")
+        print("\nTypes of loops:")
+        print("- for loop")
+        print("- while loop")
+
+    elif choice == "36":
+        print("\nINTRODUCTION TO ITERATION")
+        print("Iteration is the process of repeating instructions.")
+        print("\nExample:")
+        print("count = 1")
+        print("while count <= 5:")
+        print("    print(count)")
+        print("    count += 1")
+        print("\nOutput:")
+        print("1")
+        print("2")
+        print("3")
+        print("4")
+        print("5")
+        print("\nThe loop stops when count becomes greater than 5.")
+
+    elif choice == "37":
+        print("\nTYPES OF LOOPS IN PYTHON")
+        print("\n1. FOR LOOP")
+        print("Used to repeat instructions over a sequence.")
+        print("\nExample:")
+        print("for i in range(5):")
+        print("    print(i)")
+        print("\n2. WHILE LOOP")
+        print("Repeats while a condition is True.")
+        print("\nExample:")
+        print("x = 1")
+        print("while x <= 5:")
+        print("    print(x)")
+        print("    x += 1")
+
+    elif choice == "38":
+        print("\nPYTHON FOR LOOP")
+        print("A for loop repeats code for each item in a sequence.")
+        print("\nExample:")
+        print("for number in range(1, 6):")
+        print("    print(number)")
+        print("\nOutput:")
+        print("1")
+        print("2")
+        print("3")
+        print("4")
+        print("5")
+        print("\nrange(1, 6) generates numbers from 1 to 5.")
+
+    elif choice == "39":
+        print("\nFOR LOOP EXAMPLE")
+        print("Example: Display student names.")
+        print("\nstudents = ['Alex', 'John', 'Maria']")
+        print("\nfor student in students:")
+        print("    print(student)")
+        print("\nOutput:")
+        print("Alex")
+        print("John")
+        print("Maria")
+        print("\nThe loop processes each name in the list.")
+
+    elif choice == "40":
+        print("\nPYTHON WHILE LOOP")
+        print("A while loop repeats code while a condition is True.")
+        print("\nExample:")
+        print("number = 1")
+        print("while number <= 5:")
+        print("    print(number)")
+        print("    number += 1")
+        print("\nOutput:")
+        print("1")
+        print("2")
+        print("3")
+        print("4")
+        print("5")
+        print("\nThe variable increases by 1 each repetition.")
+        print("Make sure the loop condition eventually becomes False.")
+
+    elif choice == "41":
+
+        score = 0
+        question = 1
+
+        print("\n======================================")
+        print("          PYTHON 20-QUESTION QUIZ")
+        print("======================================")
+
+        while question <= 20:
+
+            if question == 1:
+                answer = input("\n1. Who created Python? ")
+                if answer.lower().strip() == "guido van rossum":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: Guido van Rossum")
+
+            elif question == 2:
+                answer = input("\n2. When was Python first released? ")
+                if answer.strip() == "1991":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: 1991")
+
+            elif question == 3:
+                answer = input("\n3. What function displays output? ")
+                if answer.lower().strip() == "print":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: print")
+
+            elif question == 4:
+                answer = input("\n4. What function accepts user input? ")
+                if answer.lower().strip() == "input":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: input")
+
+            elif question == 5:
+                answer = input("\n5. What symbol creates a comment? ")
+                if answer.strip() == "#":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: #")
+
+            elif question == 6:
+                answer = input("\n6. What data type stores whole numbers? ")
+                if answer.lower().strip() == "int":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: int")
+
+            elif question == 7:
+                answer = input("\n7. What data type stores decimal numbers? ")
+                if answer.lower().strip() == "float":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: float")
+
+            elif question == 8:
+                answer = input("\n8. What data type stores text? ")
+                if answer.lower().strip() == "string":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: string")
+
+            elif question == 9:
+                answer = input("\n9. What data type represents True or False? ")
+                if answer.lower().strip() == "boolean":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: boolean")
+
+            elif question == 10:
+                answer = input("\n10. What operator is used for addition? ")
+                if answer.strip() == "+":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: +")
+
+            elif question == 11:
+                answer = input("\n11. What operator is used for multiplication? ")
+                if answer.strip() == "*":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: *")
+
+            elif question == 12:
+                answer = input("\n12. What operator checks equality? ")
+                if answer.strip() == "==":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: ==")
+
+            elif question == 13:
+                answer = input("\n13. What statement checks a condition? ")
+                if answer.lower().strip() == "if":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: if")
+
+            elif question == 14:
+                answer = input("\n14. What keyword checks another condition? ")
+                if answer.lower().strip() == "elif":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: elif")
+
+            elif question == 15:
+                answer = input("\n15. What keyword executes when conditions are false? ")
+                if answer.lower().strip() == "else":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: else")
+
+            elif question == 16:
+                answer = input("\n16. What logical operator requires both conditions True? ")
+                if answer.lower().strip() == "and":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: and")
+
+            elif question == 17:
+                answer = input("\n17. What operator requires at least one True condition? ")
+                if answer.lower().strip() == "or":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: or")
+
+            elif question == 18:
+                answer = input("\n18. What logical operator reverses a Boolean value? ")
+                if answer.lower().strip() == "not":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: not")
+
+            elif question == 19:
+                answer = input("\n19. What loop repeats over a sequence? ")
+                if answer.lower().strip() == "for":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: for")
+
+            elif question == 20:
+                answer = input("\n20. What loop repeats while a condition is True? ")
+                if answer.lower().strip() == "while":
+                    print("Correct!")
+                    score += 1
+                else:
+                    print("Wrong! Answer: while")
+
+            question += 1
+
+        percentage = (score / 20) * 100
+
+        print("\n======================================")
+        print("             QUIZ RESULTS")
+        print("======================================")
+        print("Total Questions: 20")
+        print("Correct Answers:", score)
+        print("Wrong Answers:", 20 - score)
+        print("Percentage:", percentage, "%")
+
+        if percentage >= 90:
+            print("Remarks: Excellent!")
+
+        elif percentage >= 80:
+            print("Remarks: Very Good!")
+
+        elif percentage >= 75:
+            print("Remarks: Passed!")
+
+        else:
+            print("Remarks: Needs Improvement.")
+
+        print("======================================")
+
+    elif choice == "42":
+        print("\nThank you for using Python Tutorial System!")
+        print("Keep practicing Python programming!")
+        break
+
+    else:
+        print("\nInvalid choice! Please select from 1 to 42.")
+
+    input("\nPress ENTER to return to the main menu...")
